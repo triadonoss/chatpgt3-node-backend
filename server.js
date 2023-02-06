@@ -23,7 +23,7 @@ app.use(
 );
 app.use(express.json());
 app.post('/', async (req, res) => {
-  res.send('Yes it works!');
+  //res.send('Yes it works!');
   const { promps } = req.body;
 
   const response = await openai.createCompletion({
