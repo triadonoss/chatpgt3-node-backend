@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3500;
 const cors = require('cors');
 
 const configuration = new Configuration({
-  organization: 'org-Mlt1HHrtFYtlPXokEqrcVPAi',
+  organization: 'org-QyI4smLpMwBnzivq7VwKJr6O',
   apiKey: process.env.OPEN_AI_KEY,
 });
 const openai = new OpenAIApi(configuration);
